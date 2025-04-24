@@ -38,7 +38,7 @@
 |----------|-------------|-------------|  
 | **[Automobile-Sales-Analysis-Recession-Impact](https://github.com/AntonioBurgos91/Automobile-Sales-Analysis-Recession-Impact)** | Análisis predictivo de ventas de automoviles. | `Python` `Pandas` `Matplotlib` |  
 | **[Escáner de Puertos](https://github.com/AntonioBurgos91/PortScannerAndSSLChecker)** | Sistema de detección de anomalías en redes. | `socket` `threading` `tkinter`  |  
-| **[Dashboard de Ciberseguridad](https://github.com/AntonioBurgos91/Calculadora)** | Visualización de amenazas en tiempo real. | `PowerBI` `SQL` `Python` |  
+| **[Banking Financial](https://github.com/AntonioBurgos91/banking-financial-eda-sql-python)** | Análisis financiero SQL & Python | `SQL` `Plotly` `Pandas` `NumPy` `Excel` `Python` |  
 
 ---
 

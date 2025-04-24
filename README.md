@@ -1,9 +1,8 @@
 # ¡Hola 👋! Soy Antonio Burgos  
 ### **Data Scientist | Analista de Datos | Especialista en IA**  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Antonio_Burgos-%230A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/tu-perfil/)
-[![Email](https://img.shields.io/badge/Email-antonio%40email.com-%23EA4335?style=flat&logo=gmail)](mailto:antonio@email.com)
-[![Portafolio](https://img.shields.io/badge/🌐-Portafolio_Personal-%238A2BE2)](https://tu-portafolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Antonio_Burgos-%230A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/antonio-burgos91/)
+[![Email](https://img.shields.io/badge/Email-antonio%40email.com-%23EA4335?style=flat&logo=gmail)](mailto:antonio@hotmail.com)
 
 ---
 
@@ -50,18 +49,22 @@
 
 ---
 
-## **📚 Blog y Recursos**  
-- ✍️ **Blog Personal**: [Artículos sobre IA y Ciberseguridad](https://tu-blog.com)  
+## **Certificaciones Profesionales**  
+  
 - � **Certificaciones**:  
-  - Google Data Analytics Professional Certificate  
-  - AWS Certified Security – Specialty  
+  - Google Data Analytics (GOOGLE)
+  - IBM Data Science Professional Certificate (IBM)
+  - IBM SkillsBuild Analytics Certificate (IBM)
+  - Guided Learning Experience in Artificial Intelligence (IBM)
+  - Certificado profesional de Ciberseguridad de Google (GOOGLE)
+  - Curso básico de ciberseguridad (INCIBE)
+  - Google IT Automation with Python (GOOGLE) 
 
 ---
 
 ## **📫 ¿Quieres colaborar o contactarme?**  
-- 💬 **LinkedIn**: [Envíame un mensaje](https://www.linkedin.com/in/tu-perfil/)  
-- 📧 **Email**: [antonio@email.com](mailto:antonio@email.com)  
-- 🐦 **Twitter**: [@AntonioBurgos91](https://twitter.com/tu-usuario)  
+- 💬 **LinkedIn**: [Envíame un mensaje](https://www.linkedin.com/in/antonio-burgos91/)  
+- 📧 **Email**: [antonio@email.com](mailto:burgosbriales@hotmail.com)   
 
 ---
 

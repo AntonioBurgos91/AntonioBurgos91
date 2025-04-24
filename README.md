@@ -37,7 +37,7 @@
 | Proyecto | Descripción | Tecnologías |  
 |----------|-------------|-------------|  
 | **[Automobile-Sales-Analysis-Recession-Impact](https://github.com/AntonioBurgos91/Automobile-Sales-Analysis-Recession-Impact)** | Análisis predictivo de ventas de automoviles. | `Python` `Pandas` `Matplotlib` |  
-| **[Detección de Intrusos](https://github.com/AntonioBurgos91/Buscaminas)** | Sistema de detección de anomalías en redes. | `TensorFlow` `Scikit-Learn` `Wireshark` |  
+| **[Escáner de Puertos](https://github.com/AntonioBurgos91/Buscaminas)** | Sistema de detección de anomalías en redes. | `socket` `threading` `tkinter`  |  
 | **[Dashboard de Ciberseguridad](https://github.com/AntonioBurgos91/Calculadora)** | Visualización de amenazas en tiempo real. | `PowerBI` `SQL` `Python` |  
 
 ---

@@ -1,5 +1,5 @@
 # ¡Hola 👋! Soy Antonio Burgos  
-### **Data Scientist | Analista de Datos | Ciberseguridad | Especialista en IA **  
+### **Data Scientist | Analista de Datos | Ciberseguridad | Especialista en IA**  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Antonio_Burgos-%230A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/antonio-burgos91/)
 [![Email](https://img.shields.io/badge/Email-antonio%40hotmail.com-%23EA4335?style=flat&logo=gmail)](mailto:antonio@hotmail.com)

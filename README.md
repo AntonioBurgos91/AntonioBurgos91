@@ -41,7 +41,7 @@
 | **[Escáner de Puertos](https://github.com/AntonioBurgos91/PortScannerAndSSLChecker)** | Sistema de detección de anomalías en redes. | `socket` `threading` `tkinter`  |  
 | **[Banking Financial](https://github.com/AntonioBurgos91/banking-financial-eda-sql-python)** | Análisis financiero SQL & Python | `SQL` `Plotly` `Pandas` `NumPy` `Excel` `Python` |  
 | **[Network_Traffic_Detector](https://github.com/AntonioBurgos91/Network_Traffic_Detector)** | Clasificación de tráfico en red mediante Machine Learning | `Pandas` `NumPy` `Scikit-Learn` |
-| **[Breast Cancer Classification](https://github.com/AntonioBurgos91/breast-cancer-classification)** | Análisis predictivo de tejido mamario benigno o maligno con machine learning. | `Seaborn` `Pandas` `Matplotlib` `Scikit-Learn` `xgboost`|
+| **[Breast Cancer Classification](https://github.com/AntonioBurgos91/breast-cancer-classification)** | Análisis predictivo de tejido mamario benigno o maligno con machine learning. | `Seaborn` `Pandas` `Matplotlib` `Scikit-Learn` `xgboost` `imbalanced-learn`|
 ---
 
 ## **📈 Estadísticas de GitHub**  

@@ -66,7 +66,7 @@
 
 ## **📫 ¿Quieres colaborar o contactarme?**  
 - 💬 **LinkedIn**: [Envíame un mensaje](https://www.linkedin.com/in/antonio-burgos91/)  
-- 📧 **Email**: [antonio@email.com](mailto:burgosbriales@hotmail.com)   
+- 📧 **Email**: [burgosbriales@hotmail.com](mailto:burgosbriales@hotmail.com)   
 
 ---
 

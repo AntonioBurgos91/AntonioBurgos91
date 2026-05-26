@@ -63,6 +63,7 @@ impl AIEngineer {
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os/blob/main/LICENSE)
 [![LOC](https://img.shields.io/badge/~50K-LOC-success?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os)
 [![Languages](https://img.shields.io/badge/C%2B%2B23%20%C2%B7%20Rust%20%C2%B7%20QML%20%C2%B7%20Python-5-blueviolet?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os)
+[![Stars](https://img.shields.io/github/stars/AntonioBurgos91/aurum-os?style=for-the-badge&logo=github&color=F7C52E)](https://github.com/AntonioBurgos91/aurum-os/stargazers)
 
 A full Linux distribution. Built solo. ~50K LOC across **C++23, Rust, QML, Python and Bash**.
 
@@ -124,19 +125,6 @@ A full Linux distribution. Built solo. ~50K LOC across **C++23, Rust, QML, Pytho
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AntonioBurgos91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AntonioBurgos91&theme=tokyonight&hide_border=true" />
-
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AntonioBurgos91&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
-
-</div>
-
----
-
 ## 🚀 Selected Projects
 
 <div align="center">
@@ -149,16 +137,6 @@ A full Linux distribution. Built solo. ~50K LOC across **C++23, Rust, QML, Pytho
 | **[AI Vision Assistant](https://github.com/AntonioBurgos91/ai-vision-assistant)** | Vision assistant powered by Claude API | `Python` `Claude API` `CV` |
 | **[SOC Log Analyzer](https://github.com/AntonioBurgos91/SOC-Log-Analyzer)** | Real-time security log analysis & threat detection | `Python` `Security` |
 | **[Atlas GRC](https://github.com/AntonioBurgos91/atlas-grc)** | ISO 27001 compliance & risk quantification platform | `ISO 27001` `Risk` |
-
-</div>
-
----
-
-## 📈 Activity
-
-<div align="center">
-
-[![Antonio's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AntonioBurgos91&theme=tokyo-night&hide_border=true)](https://github.com/AntonioBurgos91)
 
 </div>
 

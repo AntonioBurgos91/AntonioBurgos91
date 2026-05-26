@@ -125,6 +125,21 @@ A full Linux distribution. Built solo. ~50K LOC across **C++23, Rust, QML, Pytho
 
 ---
 
+## 📊 GitHub Activity
+
+> Auto-generated daily via self-hosted GitHub Actions — no external services involved.
+
+<div align="center">
+
+<img width="49%" src="./metrics/general.svg" alt="General stats" />
+<img width="49%" src="./metrics/languages.svg" alt="Languages breakdown" />
+
+<img width="70%" src="./metrics/calendar.svg" alt="Isometric contribution calendar" />
+
+</div>
+
+---
+
 ## 🚀 Selected Projects
 
 <div align="center">

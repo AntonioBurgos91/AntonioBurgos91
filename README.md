@@ -1,44 +1,80 @@
 <div align="center">
 
-# 👋 ¡Hola! Soy Antonio Burgos
+# 👋 Hi, I'm Antonio Burgos
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Data+Scientist+%7C+AI+Specialist;Cybersecurity+Professional;Machine+Learning+Engineer;Data+Analytics+Expert" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=F7C52E&center=true&vCenter=true&width=700&lines=AI+Systems+Engineer;Creator+of+AurumOS;AI+Infrastructure+%E2%80%A2+C%2B%2B23+%2F+Rust+%2F+Python;LLM+Serving+%E2%80%A2+Multi-Agent+Orchestration+%E2%80%A2+MLOps;I+build+the+layer+underneath" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-burgos91/)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:burgosbriales@hotmail.com)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntonioBurgos91)
 
-<img src="https://komarev.com/ghpvc/?username=AntonioBurgos91&style=for-the-badge&color=blue" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=AntonioBurgos91&style=for-the-badge&color=F7C52E" alt="Profile Views"/>
 
 </div>
 
 ---
 
-## 🚀 Sobre mí
+## 🚀 About me
 
-Científico de Datos y Especialista en IA con pasión por transformar datos complejos en soluciones innovadoras. Combino expertise en **Machine Learning**, **Data Analytics** y **Ciberseguridad** para crear sistemas inteligentes y seguros.
+I build **complete AI systems and infrastructure** — from kernel-level Linux tuning to multi-agent orchestration in production.
 
-```python
-class DataScientist:
-    def __init__(self):
-        self.name = "Antonio Burgos"
-        self.role = "Data Scientist & AI Specialist"
-        self.location = "España"
-        self.skills = {
-            "languages": ["Python", "SQL", "R"],
-            "ml_frameworks": ["TensorFlow", "PyTorch", "Scikit-Learn"],
-            "data_tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
-            "bi_tools": ["Power BI", "Tableau", "Plotly"],
-            "cybersecurity": ["Kali Linux", "Wireshark", "OWASP"],
-            "cloud": ["AWS", "Docker"],
+Most "AI engineers" wire APIs together. I build the layer underneath: the operating system, the inference runtime, the orchestration logic, the observability.
+
+End-to-end ownership of the stack.
+
+```rust
+struct AIEngineer {
+    name: &'static str,
+    role: &'static str,
+    location: &'static str,
+    focus: [&'static str; 5],
+}
+
+impl AIEngineer {
+    fn current() -> Self {
+        Self {
+            name: "Antonio Burgos",
+            role: "AI Systems Engineer · Creator of AurumOS",
+            location: "Palma de Mallorca, Spain",
+            focus: [
+                "AI infrastructure (C++23 / Rust / Python)",
+                "LLM serving (vLLM, SGLang, Ollama)",
+                "Multi-agent orchestration (Claude, MCP)",
+                "MLOps & observability (Langfuse, Phoenix)",
+                "Quantitative research (factor models)",
+            ],
         }
+    }
 
-    def say_hi(self):
-        print("¡Transformemos datos en valor!")
-
-me = DataScientist()
-me.say_hi()
+    fn philosophy(&self) -> &'static str {
+        "If the tooling doesn't exist, I build it."
+    }
+}
 ```
+
+---
+
+## 🟡 Featured project — AurumOS
+
+> **The Linux distribution for AI engineers.**
+> Production-grade · macOS-Sequoia-class UX · adapts to your hardware.
+
+[![AurumOS](https://img.shields.io/badge/AurumOS-v0.2.0--beta-F7C52E?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os/blob/main/LICENSE)
+[![LOC](https://img.shields.io/badge/~50K-LOC-success?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os)
+[![Languages](https://img.shields.io/badge/C%2B%2B23%20%C2%B7%20Rust%20%C2%B7%20QML%20%C2%B7%20Python-5-blueviolet?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os)
+
+A full Linux distribution. Built solo. ~50K LOC across **C++23, Rust, QML, Python and Bash**.
+
+- 🖥️ Custom **Qt6/QML desktop environment** — 12 native apps + 3 Rust daemons over D-Bus
+- ⚡ Forked **Hyprland compositor** tuned for GPU workloads (zero variance during training)
+- 🎯 **Hardware-tier adaptive** — auto-detects GPU and adjusts every launcher (vLLM, Ollama, ComfyUI, fine-tuning scripts)
+- 🧠 **SOTA 2026 AI stack** pre-wired: vLLM · Unsloth · DSPy · MCP · LiteLLM · Langfuse · Continue.dev · ComfyUI · YOLOv11 · SAM 2
+- 📦 **Steam-Workshop-style Model Pack Manager** (6 curated bundles)
+- 🧪 **5-stage CI + 52-check smoke harness**
+- 🐧 Forked from **Pop!_OS 24.04 LTS** for NVIDIA / CUDA / cuDNN / TensorRT inheritance
+
+➡️ **[github.com/AntonioBurgos91/aurum-os](https://github.com/AntonioBurgos91/aurum-os)** · ⭐ if it resonates
 
 ---
 
@@ -47,46 +83,42 @@ me.say_hi()
 <div align="center">
 
 ### 💻 Languages
+![C++](https://img.shields.io/badge/C%2B%2B23-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![QML](https://img.shields.io/badge/QML-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
-### 🤖 Machine Learning & AI
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+### 🧠 AI Infrastructure & LLM
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-FF6F00?style=for-the-badge&logo=python&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Unsloth](https://img.shields.io/badge/Unsloth-7C3AED?style=for-the-badge&logo=python&logoColor=white)
+![DSPy](https://img.shields.io/badge/DSPy-2563EB?style=for-the-badge&logo=python&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Anthropic-D97757?style=for-the-badge)
+![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-15A0E5?style=for-the-badge)
+![Langfuse](https://img.shields.io/badge/Langfuse-005CFF?style=for-the-badge)
 
-### 📊 Data Science & Analytics
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-### 📈 Business Intelligence
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-### 🔒 Cybersecurity
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+### 🐧 Systems & Infrastructure
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Qt](https://img.shields.io/badge/Qt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge)
+![systemd](https://img.shields.io/badge/systemd-30638E?style=for-the-badge)
+
+### 📊 Data & BI
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+### 🔄 Workflow & Automation
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=AntonioBurgos91&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/AntonioBurgos91)
 
 </div>
 
@@ -96,7 +128,7 @@ me.say_hi()
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AntonioBurgos91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AntonioBurgos91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AntonioBurgos91&theme=tokyonight&hide_border=true" />
 
 <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AntonioBurgos91&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
@@ -105,27 +137,24 @@ me.say_hi()
 
 ---
 
-## 🚀 Proyectos Destacados
+## 🚀 Selected Projects
 
 <div align="center">
 
-| 🎯 Proyecto | 📝 Descripción | 🛠️ Tech Stack | ⭐ Stars |
-|------------|---------------|---------------|---------|
-| **[AI Vision Assistant](https://github.com/AntonioBurgos91/ai-vision-assistant)** | Asistente inteligente con capacidades de visión por computadora powered by Claude AI | `Python` `AI` `Computer Vision` `Claude API` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/ai-vision-assistant?style=social) |
-| **[Análisis Climático ML](https://github.com/AntonioBurgos91/Analisis-Climatico-MachineLearning)** | Análisis del cambio climático con ML aplicado a datos históricos desde 1880 | `Python` `ML` `Climate Analysis` `Visualization` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/Analisis-Climatico-MachineLearning?style=social) |
-| **[SOC Log Analyzer](https://github.com/AntonioBurgos91/SOC-Log-Analyzer)** | Sistema profesional de análisis de logs de seguridad con detección de amenazas en tiempo real | `Python` `Security` `Real-time Analysis` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/SOC-Log-Analyzer?style=social) |
-| **[Atlas GRC](https://github.com/AntonioBurgos91/atlas-grc)** | Plataforma empresarial de cumplimiento ISO 27001 y cuantificación de riesgos | `ISO 27001` `Risk Management` `Compliance` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/atlas-grc?style=social) |
-| **[Real Estate Insights](https://github.com/AntonioBurgos91/real-estate-data-insights)** | Análisis completo del mercado inmobiliario con modelos predictivos de precios | `Python` `ML` `Real Estate` `Predictive Models` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/real-estate-data-insights?style=social) |
-| **[Breast Cancer Classification](https://github.com/AntonioBurgos91/breast-cancer-classification)** | Clasificación de tejido mamario con ML (benigno/maligno) | `Scikit-Learn` `XGBoost` `Healthcare ML` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/breast-cancer-classification?style=social) |
-| **[Diabetes Prediction](https://github.com/AntonioBurgos91/modelo_diabetes_ml)** | Predicción de diabetes tipo 2 con Machine Learning aplicado a datos clínicos | `Scikit-Learn` `Healthcare` `Predictive Analytics` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/modelo_diabetes_ml?style=social) |
-| **[Banking Financial EDA](https://github.com/AntonioBurgos91/banking-financial-eda-sql-python)** | Análisis exploratorio de métricas financieras y riesgo crediticio | `SQL` `Python` `Plotly` `Financial Analysis` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/banking-financial-eda-sql-python?style=social) |
-| **[Network Traffic Detector](https://github.com/AntonioBurgos91/Network_Traffic_Detector)** | Clasificación de tráfico de red mediante Machine Learning | `Scikit-Learn` `Network Security` `ML` | ![Stars](https://img.shields.io/github/stars/AntonioBurgos91/Network_Traffic_Detector?style=social) |
+| 🎯 Project | 📝 What it is | 🛠️ Stack |
+|---|---|---|
+| **[AurumOS](https://github.com/AntonioBurgos91/aurum-os)** ⭐ | Full Linux distribution for AI engineers · custom Qt6/QML desktop · SOTA 2026 AI stack · hardware-adaptive | `C++23` `Rust` `QML` `Python` `Bash` |
+| **QuantumScore** | Factor-based portfolio engine with backtesting · 5-pillar scoring · CAGR +101.4% / Sharpe 2.07 (validated strategy) | `Python` `React` `Vite` `Backtesting` |
+| **Inmobiliaria Palma** | Real-estate finder · 5D scoring · 6K+ listings · undervaluation detection | `Flask` `SQLite` `Leaflet` `Telegram API` |
+| **[AI Vision Assistant](https://github.com/AntonioBurgos91/ai-vision-assistant)** | Vision assistant powered by Claude API | `Python` `Claude API` `CV` |
+| **[SOC Log Analyzer](https://github.com/AntonioBurgos91/SOC-Log-Analyzer)** | Real-time security log analysis & threat detection | `Python` `Security` |
+| **[Atlas GRC](https://github.com/AntonioBurgos91/atlas-grc)** | ISO 27001 compliance & risk quantification platform | `ISO 27001` `Risk` |
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Activity
 
 <div align="center">
 
@@ -135,65 +164,70 @@ me.say_hi()
 
 ---
 
-## 🎓 Certificaciones Profesionales
+## 🎓 Certifications
 
 <div align="center">
 
-| 🏅 Certificación | 🏛️ Institución | 🔗 Link |
-|-----------------|---------------|---------|
-| Google Data Analytics | Google | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://www.coursera.org/account/accomplishments/specialization/certificate/google-data-analytics) |
-| IBM Data Science Professional Certificate | IBM | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://www.coursera.org/professional-certificates/ibm-data-science) |
-| IBM SkillsBuild Analytics Certificate | IBM | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://skillsbuild.org) |
-| Guided Learning Experience in AI | IBM | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://www.ibm.com) |
-| Certificado Profesional de Ciberseguridad | Google | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://www.coursera.org/google-certificates/cybersecurity-certificate) |
-| Curso Básico de Ciberseguridad | INCIBE | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://www.incibe.es) |
-| Google IT Automation with Python | Google | [![Badge](https://img.shields.io/badge/View-Certificate-blue?style=flat-square)](https://www.coursera.org/professional-certificates/google-it-automation) |
+| 🏅 Certification | 🏛️ Institution |
+|---|---|
+| Google Data Analytics Professional Certificate | Google |
+| IBM Data Science Professional Certificate | IBM |
+| IBM SkillsBuild Analytics Certificate | IBM |
+| Guided Learning Experience in AI | IBM |
+| Google Cybersecurity Professional Certificate | Google |
+| Google IT Automation with Python | Google |
+| Curso Básico de Ciberseguridad | INCIBE |
 
 </div>
 
 ---
 
-## 💼 Áreas de Expertise
+## 💼 Areas of expertise
 
 <div align="center">
 
 ```mermaid
 mindmap
   root((Antonio<br/>Burgos))
-    Data Science
-      EDA
-      Statistical Analysis
-      Data Visualization
-      Big Data
-    Machine Learning
-      Supervised Learning
-      Unsupervised Learning
-      Deep Learning
-      NLP
-    Cybersecurity
-      Threat Detection
-      Network Security
-      Penetration Testing
-      SOC Analysis
-    Business Intelligence
-      Dashboard Design
-      KPI Tracking
-      Reporting
-      Data Storytelling
+    AI Systems
+      AI Infrastructure
+      LLM Serving
+      Inference Engines
+      Quantization
+    Multi-Agent
+      Orchestration
+      MCP Servers
+      Tool Routing
+      Agent Workflows
+    MLOps
+      Observability
+      Fine-tuning Pipelines
+      Model Serving
+      CI/CD for ML
+    Systems
+      Linux Distributions
+      Qt6/QML Desktop
+      Rust Daemons
+      Wayland Compositors
+    Quant Research
+      Factor Models
+      Backtesting
+      Portfolio Engines
+      Risk Analytics
 ```
 
 </div>
 
 ---
 
-## 📫 Conecta Conmigo
+## 📫 Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-burgos91/)
-[![Email](https://img.shields.io/badge/Email-Contactar-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:burgosbriales@hotmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Seguir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntonioBurgos91)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visitar-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/AntonioBurgos91)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-burgos91/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:burgosbriales@hotmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AntonioBurgos91)
+[![AurumOS](https://img.shields.io/badge/AurumOS-Star_the_repo-F7C52E?style=for-the-badge)](https://github.com/AntonioBurgos91/aurum-os)
 
 </div>
 
@@ -201,19 +235,18 @@ mindmap
 
 <div align="center">
 
-### 💡 Filosofía
+### 💡 Philosophy
 
-> *"Los datos son el nuevo petróleo, pero solo si sabes refinarlos"*
+> *"If a machine can do it better, a human shouldn't be doing it.*
+> *If the tooling doesn't exist, I build it."*
 
-### ⚡ Fun Fact
-
-*Transformando café en código y datos en insights desde 2020*
+📍 **Palma de Mallorca · Remote available · English B2**
 
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
-**🌟 Si te gusta mi trabajo, no olvides darle una estrella ⭐ a mis repositorios**
+**🌟 If you find my work useful, drop a ⭐ on [AurumOS](https://github.com/AntonioBurgos91/aurum-os)**
 
 ![Snake animation](https://raw.githubusercontent.com/AntonioBurgos91/AntonioBurgos91/output/github-contribution-grid-snake.svg)
 

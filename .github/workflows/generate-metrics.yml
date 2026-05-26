@@ -1,0 +1,81 @@
+name: Generate Metrics
+
+on:
+  # Run every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on push to main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: General stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/general.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Madrid
+          template: classic
+          user: ${{ github.repository_owner }}
+
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          config_timezone: Europe/Madrid
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss, less, dockerfile, makefile, tex, jupyter notebook
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          user: ${{ github.repository_owner }}
+
+      - name: Activity & habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/activity.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          config_timezone: Europe/Madrid
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          user: ${{ github.repository_owner }}
+
+      - name: Isometric calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/calendar.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          config_timezone: Europe/Madrid
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          user: ${{ github.repository_owner }}
+
+      - name: Commit and push metrics
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add metrics/*.svg
+          if [[ -n $(git status --porcelain) ]]; then
+            git commit -m 'chore(metrics): auto-update [skip ci]'
+            git push
+          else
+            echo 'No changes to metrics, skipping commit.'
+          fi
